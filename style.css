@@ -1,0 +1,150 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+
+main {
+    background-color: white;
+    margin: 4% auto;
+    width: 25%;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+}
+
+br {
+    border: 10%;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.illustration-hero{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.description {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.order-details {
+    display: flex;
+    width: 90%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    margin: 7% auto;
+}
+
+.icon-music {
+    margin: auto 6%;
+    height: 10%;
+}
+
+.plan {
+    line-height: 1.4;
+    width: auto;
+}
+
+.change {
+    margin: null;
+    margin: auto 6% auto 16%;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.change:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+}
+
+.payment-button {
+    width: 90%;
+    border: 0;
+    border-radius: 8px;
+    color: hsl(225, 100%, 98%);
+    background: hsl(245, 75%, 52%);
+    padding: 10px 20px 10px 20px;
+  }
+  
+.payment-button:hover {
+    background: hsl(224, 23%, 55%);
+}
+
+.cancel {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 9%;
+    font-weight: 700;
+}
+
+.cancel:hover {
+    color: black;
+    font-weight: 700;
+}
+
+
+.attribution { 
+    font-size: 14px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (min-width:300px) and (max-width:500px){
+    
+    body {
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    main {
+        margin: 8% auto;
+        width: 80%;
+    }
+
+    .description {
+        margin: auto;
+        text-align: center;
+        width: 85%;
+    }
+
+    .icon-music {
+        margin: auto 5%;
+        height: 8%;
+    }
+    
+    .change {
+        margin: auto 5% auto 10%;
+    }
+
+    .attribution { 
+        margin-top: 30%;
+    }
+}
